@@ -68,7 +68,7 @@ m_VoiceRecognitionStyle:2
 m_SModeTransponders:EHILPS
 m_CorrelationMode:2
 m_CorrelationDistance:30
-m_SimulateRadars:0
+m_SimulateRadars:1
 m_AllowCorrelatedTAGDown:0
 m_ShowDetailedOverUntagged:0
 m_ShowRectAroundFPTrack:0
