@@ -6,7 +6,7 @@ TRvACC STANDARD ALIAS
 .autoclimbaltitude Climb to altitude $1 ft QNH $altim($dep) hPa.
 .autodescendlevel Descend to FL $1.
 .autodescendaltitude Descend $1 ft, QNH $altim($arr) hPa.
-.autoclearedils Cleared ILS approach runway $1. Report establish.
+.autoclearedils Cleared ILS approach runway $1. Report established.
 .autoclearedvisual Cleared visual approach runway $1. Report runway in sight.
 .autospeed Maintain speed $1 knots.
 .automach Maintain mach number $1 
@@ -33,7 +33,7 @@ TRvACC STANDARD ALIAS
 .viac Via $1, cross rwy $2.
 ..viac $1 ile $2 pistini kat edin.
 
-.re report establish.
+.re Report established.
 ..re Establish olus ikaz.
 
 .id Identified.
@@ -108,10 +108,10 @@ TRvACC STANDARD ALIAS
 .star Cleared $star arrival. 
 ..star $star yaklasmasina serbestsiniz.
 
-.cils Cleared ILS approach runway $arrrwy. Report establish.
+.cils Cleared ILS approach runway $arrrwy. Report established.
 ..cils $arrrwy pistine ILS yaklasma serbest. Establish olus ikaz.
 
-.cilst Via $1 transition, cleared ILS approach runway $arrrwy. Report establish.
+.cilst Via $1 transition, cleared ILS approach runway $arrrwy. Report established.
 ..cilst $arrrwy pisti icin ILS yaklasmasina $1 transition ile serbestsiniz. Establish olus ikaz.
 
 .crnp Cleared RNP approach runway $arrrwy. Report on final.
@@ -123,7 +123,7 @@ TRvACC STANDARD ALIAS
 .cndb Cleared NDB approach runway $arrrwy. Report on final.
 ..cndb $arrrwy pistine NDB yaklasma serbest. Final rapor ediniz.
 
-.cloc Cleared LOC approach runway $arrrwy. Report establish.
+.cloc Cleared LOC approach runway $arrrwy. Report established.
 ..cloc $arrwy pistine LOC yaklasma serbest. Establish olus ikaz.
 
 .clrv Cleared to $arr via radar vectors departure, departure runway $deprwy. After departure maintain runway heading. Squawk $squawk. Initial climb $alt. 
@@ -286,16 +286,16 @@ APPROACH AND LANDING INSTRUCTIONS
 .tlpdn Turn left, proceed direct to $1 NDB.
 ..tlpdn Soldan donusle $1 NDB'sine direkt devam edin.
 
-.trils Turn right heading $1, Cleared ILS approach runway $arrrwy. Report establish.
+.trils Turn right heading $1, Cleared ILS approach runway $arrrwy. Report established.
 ..trils Saga $1 basa donerek $arrrwy pisti icin ILS yaklasmaya serbestsiniz. Establish olus ikaz.
 
-.tlils Turn left heading $1, Cleared ILS approach runway $arrrwy. Report establish.
+.tlils Turn left heading $1, Cleared ILS approach runway $arrrwy. Report established.
 ..tlils Sola $1 basa donerek $arrrwy pisti icin ILS yaklasmaya serbestsiniz. Establish olus ikaz.
 
-.fils  Cleared ILS approach runway $1 via $arrrwy. Report establish.
+.fils  Cleared ILS approach runway $1 via $arrrwy. Report established.
 ..fils $arrrwy pisti icin $1 uzerinden ILS yaklasmasina serbestsiniz. Establish olus ikaz.
 
-.mils Maintain present heading. Cleared ILS approach runway $arrrwy. Report establish.
+.mils Maintain present heading. Cleared ILS approach runway $arrrwy. Report established.
 ..mils Bulundugunuz basi muhafaza ederek $arrrwy pisti icin ILS yaklasmasina serbestsiniz. Establish olus ikaz.
 
 .cva Cleared VISUAL approach runway $arrrwy. Report runway in sight. 
@@ -304,7 +304,7 @@ APPROACH AND LANDING INSTRUCTIONS
 .vordme Cleared VOR-DME approach runway $arrrwy. Report final.
 ..vordme $arrrwy pisti icin VOR-DME yaklasmasina serebstsiniz. SON YAKLASMAYI ikaz edin. 
 
-.pdils Proceed direct $1, via $1, cleared ILS approach runway $arrrwy. report establish.
+.pdils Proceed direct $1, via $1, cleared ILS approach runway $arrrwy. Report established.
 ..pdils Direkt $1'a devam edin, $arrrwy pisti icin $1 uzerinden ILS yaklasmasina serbestsiniz. Establish olus ikaz.
 
 .hot When establish ILS, contact $radioname($1) $freq($1). Have a nice landing.
