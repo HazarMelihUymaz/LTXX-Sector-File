@@ -11,7 +11,7 @@ Full sectorfile releases are available on [AeroNav GNG](https://files.aero-nav.c
 
 If you have observed any bugs or something that did not work as intended, please create an issue within GitHub.
 
-# Sectorfile developers
+# Sector File developers
 
 - Gürsel Alp
 - Hazar Melih Uymaz
