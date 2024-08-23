@@ -197,6 +197,11 @@
 					"direction":"ODD"
 				}
 			],
+			"EVBOL":	[
+				{
+					"direction":"EVEN"
+				}
+			],
 			"PIDEV":	[
 				{
 					"direction":"ODD"
