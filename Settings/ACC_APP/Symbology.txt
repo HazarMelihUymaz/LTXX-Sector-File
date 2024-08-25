@@ -59,8 +59,8 @@ Controller:normal:65535:3.5:0:0:7
 Controller:breaking:13408767:3.5:0:0:7
 Controller:timeout:16777215:3.5:0:0:7
 Metar:normal:16777215:4.0:0:0:7
-Metar:modified:13408767:4.0:0:0:7
-Metar:timeout:255:4.0:0:0:7
+Metar:modified:13408767:3.8:0:0:7
+Metar:timeout:255:3.8:0:0:7
 Other:wait:16777215:3.5:0:0:7
 Other:distance line:131586:3.5:1:0:7
 Other:distance values:16777215:4.0:0:0:7
