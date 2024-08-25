@@ -269,7 +269,7 @@ ATIS3:Controling runways 16R/34L and 16L/34R - Vats.im/tr/wiki_ltfm
 ATIS4:Info at trvacc.net - Feedback at vats.im/tr/feedback
 PROFILE:LTFM_3_TWR:50:4
 ATIS2:Istanbul Tower - DCL [LTFM] - Vats.im/tr/wiki_ltfm
-ATIS3:Controlling runway 17R/35L - Vats.im/tr/wiki_ltfm
+ATIS3:Controlling runway 17R/35L and 17L/35R - Vats.im/tr/wiki_ltfm
 ATIS4:Info at trvacc.net - Feedback at vats.im/tr/feedback
 PROFILE:LTFM_5_TWR:50:4
 ATIS2:Istanbul Tower - DCL [LTFM] - Vats.im/tr/wiki_ltfm
