@@ -231,6 +231,10 @@ PROFILE:LTBJ_APP:150:5
 ATIS2:Menderes Approach					
 ATIS3:ATC Service for LTBJ					
 ATIS4:Info at trvacc.net - Feedback at vats.im/tr/feedback					
+PROFILE:LTBJ_F_APP:150:5
+ATIS2:Menderes Approach					
+ATIS3:ATC Service for LTBJ					
+ATIS4:Info at trvacc.net - Feedback at vats.im/tr/feedback	
 PROFILE:LTBS_APP:150:5
 ATIS2:Dalaman Approach					
 ATIS3:Detailed Info - vats.im/tr/wiki_ltbs				
