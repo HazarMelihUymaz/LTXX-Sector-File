@@ -213,7 +213,8 @@ System_QNHTL_ForceMetarSourceVATSIM=1
 System_UseAcceptedCoordColor=1
 System_MagModel_Type=2
 System_UseILScat=1
-System_Trf_Release=1
+System_Trf_Release=0
+System_TransferConfirmation=0
 
 Track_PredictionLine=0
 
