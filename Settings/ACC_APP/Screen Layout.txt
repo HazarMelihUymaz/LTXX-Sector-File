@@ -16,7 +16,7 @@ m_ShowCTRControllers:1
 m_ShowAPPControllers:1
 m_ShowTWRControllers:1
 m_ShowGNDControllers:1
-m_ShowATISControllers:1
+m_ShowATISControllers:0
 m_ShowOBSControllers:1
 m_ShowUnidentifiedControllers:0
 m_ShowFreqUsers:1
@@ -36,8 +36,8 @@ m_ScreenMaximized:0
 m_ShowTitleSelectedAc:0
 m_PlanesListX:-1000
 m_PlanesListY:-1000
-m_MetarListX:1751
-m_MetarListY:47
+m_MetarListX:1771
+m_MetarListY:44
 m_VoiceListX:1678
 m_VoiceListY:54
 m_ControllerListX:1511
