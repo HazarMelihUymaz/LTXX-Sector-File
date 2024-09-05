@@ -163,14 +163,20 @@ Label_AHDG_ShowDct=2
 Label_Alt_Digits=2
 Label_ASP_Digits=3
 Label_CFL_DefaultValue=1
+Label_COP_MaxChars=5
+Label_FCOP_MaxChars=5
+Label_Field18_Flag_Items=RMK/,STS/,newbie,NEWBIE,Newbie,beginner,newbe,deaf,blind,new,first,slow,slowly,noob
+Label_FText_MaxChars_List=10
 Label_GS_Prefix=G
 Label_SI_ShowFreq=1
+Label_SI_FreqTime=5
 Label_N_Default=0
-Label_WTG_Highlight_WTG=A
+Label_UseTransferInColor=1
+Label_WTG_Highlight_WTG=AB?
 
-Label_SQ_Default=1101
-Label_ATYP_Default=0100
-Label_WTC_Default=0110
+Label_SQ_Default=0000
+Label_ATYP_Default=0000
+Label_WTC_Default=0000
 Label_GS_Default=1110
 Label_ADES_Default=1100
 Label_COPN_Default=0000
@@ -187,8 +193,7 @@ Label_FCOPX_Default=1100
 Label_OFL_Default=0000
 Label_AMA_Default=0000
 Label_TOG_Default=0000
-Label_SI_FreqTime=5
-Label_SI_ShowFreq=1
+
 
 List_OptionsInGlobalMenu=0
 List_ShowSimulatedTraffic=0
