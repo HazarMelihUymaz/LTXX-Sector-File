@@ -8,8 +8,8 @@ Setup_COOPANS=1
 //System_GUI_Scale_Windows=1.4
 
 Airspace_ASSR_Type=0
-Airspace_P_Flag=LTBA,LTAC,LTAI,LTCE,LTCG,LTCB,LTBS,LTFE,LTAU,LTFH,LTAY,LTBU,LTCI,LTCF,LTCP,LTBH,LTCA,LTCN,LTFD,LTCL,LTAR,LTCS,LTAW,LTBQ,LTFO,
-Airspace_P_No_Flag=LTBJ,LTAJ,LTFC,LTAT,LTAZ,LTAF,LTBR,LTAN,LTDA,LTCO,LTCC,LTCU,LTCD,LTCR,LTCJ
+Airspace_P_Flag=LT
+Airspace_P_No_Flag=LTBJ,LTAJ,LTFC,LTAT,LTAZ,LTAF,LTBR,LTAN,LTDA,LTDB,LTCO,LTCC,LTCU,LTCD,LTCR,LTCJ
 Airspace_SIGMET_Areas=LTAA,LTBB,LBSR,URRV,UDYZ,UKFV,LGGG,LCCC,ORBB,OIIX
 Airspace_NOTAM_Add=LTAA,LTBB
 Airspace_NOTAM_Remove=LGGG,LCCC
@@ -61,7 +61,7 @@ Color_Freq_Indicator=200,200,200
 Color_Global_Menu_Highlight=150,150,0
 Color_Heading_Vector=255,255,255
 Color_Info_Coord=1,255,255
-Color_Information=40,210,40
+Color_Information=227,4,4
 Color_Map_1=80,95,80
 Color_Map_2=44,44,44
 Color_Map_3=100,108,111
@@ -91,7 +91,7 @@ Color_SEP_Tool_2=255,153,184
 Color_SEP_Tool_3=255,209,143
 Color_SEP_Tool_4=197,64,212
 Color_SEP_Tool_5=166,160,245
-Color_Sid_Star_Allocation=220,220,220
+Color_Sid_Star_Allocation=255,0,0
 Color_Suite_Highlight=0,220,255
 Color_SMW_Level_Band=24,209,114
 Color_SMW_Overflight=254,152,1
@@ -138,7 +138,9 @@ CPDLC_FSM_CLD_Header=<hour><min> <year2><month2><day> <adep2> PDC <number> . . .
 
 Divergence_CLAM_MinCFL=1500
 
+Equip_UseCodes=3
 Equip_Use_SUR_AltitudeReporting=1
+
 
 FlightLeg_Label_Point=1
 FlightLeg_LineWidth=0
@@ -160,7 +162,7 @@ Label_ACF_Use=0
 Label_AFL_ForceNautical=1
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowDct=2
-Label_Alt_Digits=2
+Label_Alt_Digits=3
 Label_ASP_Digits=3
 Label_CFL_DefaultValue=1
 Label_COP_MaxChars=5
@@ -172,68 +174,140 @@ Label_SI_ShowFreq=1
 Label_SI_FreqTime=5
 Label_N_Default=0
 Label_UseTransferInColor=1
-Label_WTG_Highlight_WTG=AB?
+
 
 Label_SQ_Default=0000
 Label_ATYP_Default=0000
-Label_WTC_Default=0000
+Label_WTC_Default=1100
 Label_GS_Default=1110
 Label_ADES_Default=1100
 Label_COPN_Default=0000
-Label_COPX_Default=1001
+Label_COPX_Default=0000
 Label_NRAC_Default=0000
 Label_XFL_Default=0000
 Label_AHDG_Default=1111
-Label_ASP_Default=1111
+Label_ASP_Default=1110
 Label_PEL_Default=0000
-Label_TSSR_Default=0100
-Label_RFL_Default=1001
+Label_TSSR_Default=0000
+Label_RFL_Default=0000
 Label_NPT_Default=0000
-Label_FCOPX_Default=1100
+Label_FCOPX_Default=0000
 Label_OFL_Default=0000
 Label_AMA_Default=0000
 Label_TOG_Default=0000
 
-
 List_OptionsInGlobalMenu=0
 List_ShowSimulatedTraffic=0
-List_Lost=0,1357,820
+List_Lost=-1,1328,850
+List_Lost_MaxItems=4
+List_Sector_Informed=0
+List_Sector_Concerned=0
+List_STCA=400,600
 
 Menu_Level_MaxValue=660
-MSAW_Buffer_IFR=1500
+Menu_MaxListItems=15
+Menu_ASP_MaxSpeed=350
+Menu_ASP_MinSpeed=140
+
+MSAW=0
 
 RDF_Mode=-1
 
-RwyAppLines_Length=20
-RwyAppLines_Markers=19
-RwyAppLines_MarkerSpacing=1
 RwyAppLines_Auto=0
 
-Shortcut_FPL=0x46 ; F
-Shortcut_Maps=0x4D ; M
-Shortcut_Flight_Leg=0x41 ; A
-Shortcut_Map_Xfr_Key=1,0x56 ; V
+SAP_Floor=3500
+SAP_Buffer_Lat_SepLevel=29000
+SAP_Buffer_Lat_U=2.5
+SAP_Buffer_Lat_L_IFR=2.5
+SAP_Buffer_Lat_L_VFR=2.5
+SAP_Buffer_Vert_U=1500
+SAP_Buffer_Vert_L_IFR=500
+SAP_Buffer_Vert_L_VFR=500
+
+Shortcut_AHDG_NoFixes_Combo=0xA0	;Left Shift
+Shortcut_Cursor_Ini=0
+Shortcut_Flight_Leg=0x41 			;A
+Shortcut_FPL=0x46 					;F
+Shortcut_FPL_Search=0
+Shortcut_Maps=0x4D 					;M
+Shortcut_QNHTL=0x54					;T
+Shortcut_Quick_Look=0x45			;E
+Shortcut_Shortcut=0x44				;D
+Shortcut_Map_Xfr_Key=1,0x56 		;V
 
 Shortcut_Map_Target=1,VFR\VFR ROUTES
 
-
 STCA_Sep_Lat_SepLevel=19500
-STCA_Floor=1500
+STCA_Filter=1
+STCA_Floor=2000
+STCA_LinPred_Sep_Lat_U=5
+STCA_LinPred_Sep_Lat_L=3
+STCA_LinPred_Sep_Vert_U=1775
+STCA_LinPred_Sep_Vert_L=775
+STCA_CurrProx_Sep_Lat_U=5
+STCA_CurrProx_Sep_Lat_L=3
+STCA_CurrProx_Sep_Vert_U=1775
+STCA_CurrProx_Sep_Vert_L=775
+STCA_VFR=0
+STCA_WarningTime_U=80
+STCA_WarningTime_L=60
+STCA_WarningTime_U_Imm=50
+STCA_WarningTime_L_Imm=50
 
-System_TrueColorMode=1
-System_UseScreenLat=0
-System_MetarSourceVATSIM=0
-System_QNHTL_ForceMetarSourceVATSIM=1
-System_UseAcceptedCoordColor=1
+System_Filters_Alt_Allow=2000
+System_Filters_Concerned=2
+System_Filters_Hard=1
+System_FPASD_MinState=1
+System_GS_DeleteMinMax=1
+System_MagModel_Model=1
 System_MagModel_Type=2
-System_UseILScat=1
-System_Trf_Release=0
+System_MetarSourceVATSIM=0
+System_QNHTL_ForceMetarSourceVATSIM=0
+System_TaxiTime=15
+System_Toggle_Units_In_Level_Menus=0
+System_Toggle_Units_In_Speed_Menu=0
 System_TransferConfirmation=0
+System_Trf_Release=0
+System_TrueColorMode=1
+System_UseAcceptedCoordColor=1
+System_UseILScat=1
+System_UseScreenLat=0
+System_UpdateNotificationDelay=30
+System_UseAcceptedCoordColor=1
+System_UsePresentHeading=1
+System_UseReportedGS=1
+System_UseSidStarAllocationColor=1
 
 Track_PredictionLine=0
 
-Vector_AHDG_Label_Dist=1
+Vector_AHDG_Font=EuroScope
+Vector_AHDG_FontSize=14
+Vector_AHDG_Label_Dist=2
 Vector_AHDG_Label_Time=1
+Vector_AHDG_RhumbLine=1
+Vector_MinSep_Font=EuroScope
+Vector_MinSep_FontSize=11
+Vector_MinSep_Label_Time=1
+Vector_MinSep_Width=1
+Vector_QDM_AA_Label_Dir2=1
+Vector_QDM_Font=EuroScope
+Vector_QDM_FontSize=11
+Vector_QDM_Label_Dir2=1
+
+Window_AD_WxRefreshInterval=600
+Window_CPDLC_MaxChars=25
+Window_FlightPlan_ShowAlways=1
+Window_QNHTL_HighlightChanges=0
+Window_QNHTL_MaxListItems=27
+Window_QNHTL_MaxListItemsLimit27
+Window_WxMsgs_HighlightNew=0
+Window_WxMsgs_MetarRefreshInterval=600
+
+
+Window_CARD=0,1810,820
+Window_CPDLC_Setting=0,1,650
+Window_FlightPlan=0,765,630
+Window_Shortcut=-1,1050,750
 
 WXR_Latitude=39
 WXR_Latitude_Max=43
@@ -242,13 +316,6 @@ WXR_Longitude=34
 WXR_Longitude_Max=45
 WXR_Longitude_Min=25
 WXR_ImageSize=256
-
-Window_CPDLC_Setting=0,1,650
-Window_CARD=0,1810,820
-Window_QNHTL_HighlightChanges=0
-Window_WxMsgs_HighlightNew=0
-Window_FlightPlan=0,765,630
-Window_AD_WxRefreshInterval=600
 
 [_OBS]
 Window_CPDLC_Setting=-1,1,250
@@ -262,50 +329,82 @@ Color_Redundant=220,220,220
 Color_Coordination=220,220,220
 
 [_DEL]
-Window_CPDLC_Current=1,1,375
+Window_CPDLC_Setting=1,1,650
+Window_CPDLC_Current=1,1,580
 Window_CARD=-1,1495,630
 MTCD=0
 Track_HistoryDots=0
 Divergence_CLAM=0
 Divergence_RAM=0
 Window_LFUNCFP=-1,1070,42
+Track_PSR_Filter_GS=0
 
 [_GND]
-Window_CPDLC_Current=1,1,375
+Window_CPDLC_Setting=1,1,650
+Window_CPDLC_Current=1,1,580
 Window_CARD=-1,1495,630
 MTCD=0
 Track_HistoryDots=0
 Divergence_CLAM=0
 Divergence_RAM=0
 Window_LFUNCFP=-1,1070,42
+Track_PSR_Filter_GS=0
 
 [_TWR]
-Window_CPDLC_Current=1,1,375
+Window_CPDLC_Setting=1,1,650
+Window_CPDLC_Current=1,1,580
 Window_CARD=-1,1495,630
 MTCD=0
 Track_HistoryDots=0
 Divergence_CLAM=0
 Divergence_RAM=0
-Label_WTC_Highlight_ATYP=DC10,MD11,B744,B748,B742,B743,B741,A388
+Label_WTG_Highlight_WTG=AB?
 Window_LFUNCFP=-1,1070,42
+Track_PSR_Filter_GS=0
+
+[IST]
+Window_SmallQNHTL_ICAO=LTFM
+Window_SmallQNHTL=1,1600,1
+
+[LTAI_APP]
+Window_SmallQNHTL_ICAO=LTAI
+Window_SmallQNHTL=1,1600,1
+
+[LTAI_L_APP]
+Window_SmallQNHTL_ICAO=LTAI
+Window_SmallQNHTL=1,1600,1
+
+[LTAI_F_APP]
+Window_SmallQNHTL_ICAO=LTAI
+Window_SmallQNHTL=1,1600,1
 
 [_APP]
 MTCD=0
+Label_ADES_MaxChars=2
+Label_WTG_Highlight_WTG=AB?
 Track_PredictionLine=0
 Window_LFUNCFP=-1,1070,42
-Window_WxMsgs=1,1660,140
+Window_WxMsgs=-1,1660,140
 Window_CPDLC_Setting=1,1,650
+Window_CPDLC_Current=1,1,580
 Window_CARD=1,1810,820
+Track_PSR_Filter_GS=0
+Window_MsgIn=1,1750,250
+Window_MsgOut=1,1750,300
 
 [ANK_CTR]
-
-
+Window_WxMsgs=1,1660,50
 
 [_CTR]
+FlightLeg_AssumeTime=2
+FlightLeg_AutoShow=1
+Label_RFL_Default=1000
+Label_XFL_Default=0100
+Label_WTG_Highlight_WTG=AB?
 Window_CPDLC_Current=1,1,580
 System_FPASD=1
-Window_LFUNCFP=1,1205,42
-Window_WxMsgs=1,1660,140
 Window_CPDLC_Setting=1,1,650
-Window_CARD=1,1810,820
+Window_CARD=1,1782,920
+Window_MsgIn=1,1459,760
+Window_MsgOut=1,1459,810
 FlightLeg_AutoShow=1

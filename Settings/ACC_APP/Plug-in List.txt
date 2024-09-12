@@ -1,7 +1,7 @@
 PLUGINS
 CCAMS:ACList/Mode S EHS/m_Visible:0
-CCAMS:ACList/Mode S EHS/m_X:1366
-CCAMS:ACList/Mode S EHS/m_Y:84
+CCAMS:ACList/Mode S EHS/m_X:341
+CCAMS:ACList/Mode S EHS/m_Y:792
 CCAMS:ACList/Mode S EHS/m_LineNumber:1
 CCAMS:ACList/Mode S EHS/m_Resizable:1
 CCAMS:ACList/Mode S EHS/m_OrderingColumn:1
@@ -15,7 +15,6 @@ CCAMS:AutoAssign:1
 CCAMS:codeVFR:1200
 CCAMS:acceptFPLformatICAO:0
 CCAMS:acceptFPLformatFAA:0
-CCAMS:ACList/Mode S EHS/m_Column_4:GS:4:1:504:0:0:1:CCAMS::
 Virtual Controller Assistant:ALT:1
 Virtual Controller Assistant:ALT1:LTFM:VADEN4C:4000:1
 Virtual Controller Assistant:ALT2:LTFM:TUDBU4C:4000:1
@@ -320,10 +319,10 @@ TopSky plugin:ACList/PREACTIVATION LIST/m_Column_0: Callsign:10:0:10021:6:0:1:To
 TopSky plugin:ACList/PREACTIVATION LIST/m_Column_1:  CFL:6:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Visible:1
 TopSky plugin:ACList/SECTOR LIST/m_X:0
-TopSky plugin:ACList/SECTOR LIST/m_Y:43
+TopSky plugin:ACList/SECTOR LIST/m_Y:45
 TopSky plugin:ACList/SECTOR LIST/m_LineNumber:0
 TopSky plugin:ACList/SECTOR LIST/m_Resizable:1
-TopSky plugin:ACList/SECTOR LIST/m_OrderingColumn:2
+TopSky plugin:ACList/SECTOR LIST/m_OrderingColumn:-15
 TopSky plugin:ACList/SECTOR LIST/m_HeaderOnly:0
 TopSky plugin:ACList/SECTOR LIST/m_Column_0:CALLSIGN:10:0:10021:6:2:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_1:ETN:5:1:10016:0:0:1:TopSky plugin::
@@ -339,12 +338,12 @@ TopSky plugin:ACList/SECTOR LIST/m_Column_10:COPX:5:0:10005:45:45:1:TopSky plugi
 TopSky plugin:ACList/SECTOR LIST/m_Column_11:RFL:4:1:10006:59:59:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_12:ASSR:5:1:10041:869:81:1:TopSky plugin:CCAMS:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_13:ADEP:5:1:10007:1001:0:1:TopSky plugin:TopSky plugin:
-TopSky plugin:ACList/SECTOR LIST/m_Column_14:SID:8:1:10011:17:17:1:TopSky plugin::
+TopSky plugin:ACList/SECTOR LIST/m_Column_14:SID:8:1:10011:17:123:1:TopSky plugin::TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_15:DRWY:5:1:10009:19:64:1:TopSky plugin::TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_16:ADES:5:1:10008:1001:39:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_17:SI:4:0:10068:20:0:1:TopSky plugin::
 TopSky plugin:ACList/SECTOR LIST/m_Column_18:ETA:5:1:54:0:0:1:::
-TopSky plugin:ACList/SECTOR LIST/m_Column_19:STAR:8:1:10012:18:18:1:TopSky plugin::
+TopSky plugin:ACList/SECTOR LIST/m_Column_19:STAR:8:1:10012:18:124:1:TopSky plugin::TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_20:ARWY:5:1:10010:19:19:1:TopSky plugin::
 TopSky plugin:ACList/SECTOR LIST/m_Column_21:COM:3:1:11:32:32:0:::
 TopSky plugin:ACList/SECTOR LIST/m_Column_22:RMK:7:1:10059:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin

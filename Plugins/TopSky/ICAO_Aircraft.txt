@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2312/1  ++  Valid period: 30/NOV/2023 - 27/DEC/2023  ++  File-Publisher: Turkish vACC - LTXX                     ;
+;  AIRAC 2207/1  ++  Valid period: 14/JUL/2022 - 10/AUG/2022  ++  File-Publisher: Turkish vACC - LTXX                     ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
@@ -403,7 +403,8 @@ BDOG	LL1P	BEAGLE	B125 Bulldog
 BE10	LL2T	HAWKER BEECHCRAFT CORP	100 King Air (U21F Ute)
 BE12	MA2T	BERIEV	Be12/14 Tchaika
 BE17	LL1P	HAWKER BEECHCRAFT CORP	17 Staggerwing (UC43 Traveler)
-BE18	LL2P	HAWKER BEECHCRAFT CORP	18 (piston) (C45, RC45, TC45, UC45, AT7, AT11 Kansan, SNB, JRB, Expeditor, Navigator)
+BE18	LL2P	HAWKER BEECHCRAFT CORP	18 (piston) (C45, RC45, TC45, UC45, AT7, AT11 Kansan, SNB,
+JRB, Expeditor, Navigator)
 BE19	LL1P	HAWKER BEECHCRAFT CORP	19 Musketeer Sport, Sport
 BE20	LL2T	HAWKER BEECHCRAFT CORP	200, 1300 Super King Air, Commuter (C12A to F, C12L/R, UC12, RC12, Tp101, Huron)
 BE22	LL1T	TEXTRON	220 Denali
@@ -1432,7 +1433,6 @@ K35R	HL4J	BOEING	KC135R/T, C135FR, Stratotanker (CFM56 engines)
 K50	ML1J	KOREA AIROSPACE	T50 Golden Eagle
 K51	LL1P	KOVACS	K51 Peregrino
 K8	LL1J	HONGDU	K8 Karakorum
-K900	LL1T	QUEST	Kodiak 900
 KA25	MH2T	KAMOV	Ka25
 KA26	LH2P	KAMOV	Ka26
 KA27	MH2T	KAMOV	Ka27/28/29/31/32
@@ -1891,7 +1891,7 @@ P337	LL2P	CESSNA	T337G, P337 Pressurised Skymaster
 P38	ML2P	LOCKHEED	P38, F5 Lightning (L222/322/422)
 P39	LL1P	BELL	P39 Airacobra
 P40	LL1P	CURTISS	P40, TP40 Warhawk, Kittyhawk
-P46T	LL1T	PIPER	PA-46-500TP Malibu Meridian, Meridian M500
+P46T	LL1T	JETPROP	DLX
 P47	ML1P	REPUBLIC	P47, F47 Thunderbolt
 P4Y	ML4P	CONVAIR	PB4Y, P4Y Privateer
 P50	LL1P	POTTIER	P50 Bouvreuil
@@ -2397,7 +2397,7 @@ SRAI	LL1P	GREAT PLAINS	Sonerai
 SRAS	LL1P	D?APUZZO	PJ260, D260/295 Senior Aero Sport
 SRAY	LA1P	DORNIER	Do-S S-Ray
 SREY	LA1P	PROGRESSIVE AERODYNE	SeaRey
-SS2	ML1-	RUTAN	339 Space Ship Two
+SS2	ML1	RUTAN	339 Space Ship Two
 SS2P	LL1P	AERO COMMANDER	S2 Ag Commander
 SS2T	LL1T	AYRES	S2RT11/T15/T34/T45/T65/G1/G6/G10 Turbo Thrush, V1 Vigilante
 SSAB	ML1J	NORTH AMERICAN	F100 Super Sabre
