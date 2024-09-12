@@ -280,7 +280,7 @@ ATIS2:Istanbul Tower - DCL [LTFM] - Vats.im/tr/wiki_ltfm
 ATIS3:Controlling runway 18/36
 ATIS4:Info at trvacc.net - Feedback at vats.im/tr/feedback
 PROFILE:LTFM_DEL:20:2
-ATIS2:Istanbul Delivery - DCL [LTFM]
+ATIS2:Istanbul Clearance - DCL [LTFM]
 ATIS3:Detailed Info 
 ATIS4:Info at trvacc.net - Feedback at vats.im/tr/feedback
 PROFILE:LTFM_S_DEL:20:2
